@@ -1,13 +1,13 @@
-package com.radoslaw.brys.image.filtering.backend;
+package com.radoslaw.brys.github.image_filter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackendApplication {
+public class ImageFilterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendApplication.class, args);
+		SpringApplication.run(ImageFilterApplication.class, args);
 	}
 
 }
